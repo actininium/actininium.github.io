@@ -5,6 +5,20 @@
     border-bottom: 1px solid grey;
 }
 
+.header a:link {
+	color: black;
+	text-decoration: none;
+}
+
+.header a:hover {
+	text-decoration: underline;
+	color: black;
+}
+
+.header a:visited {
+	color: black;
+}
+
 .footer {
     position: ablsolute;
     left: 0;
