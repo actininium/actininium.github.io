@@ -1,5 +1,4 @@
 body {
-    background: grey;
 }
 
 .content {
@@ -9,8 +8,8 @@ body {
 .header {
     text-align: center;
     font-family: sans-serif;
-    background: white;
     padding: 30px;
+    border-bottom: 1px solid grey;
 }
 
 .footer {
@@ -21,7 +20,7 @@ body {
     color: grey;
     font-family: sans-serif;
     text-align: center;
-    background: white;
     padding: 20px;
+    border-top: 1px solid grey;
 }
 
