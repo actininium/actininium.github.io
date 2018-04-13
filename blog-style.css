@@ -1,6 +1,6 @@
 .header {
     font-family: sans-serif;
-    padding: 20px;
+    padding: 10px;
     border-bottom: 1px solid grey;
 	text-align: center;
 }
@@ -27,8 +27,12 @@
     bottom: 0;
     color: grey;
     font-family: sans-serif;
-    padding: 20px;
+    padding: 10px;
     border-top: 1px solid grey;
-	text-align: center;
+    text-align: center;
+}
+
+.content {
+    font-family: sans-serif;	
 }
 
