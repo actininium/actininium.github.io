@@ -1,8 +1,10 @@
 html {
+    position: relative;
     min-height: 100%;
 }
 
 body {
+    margin: 0 0 100px;
 	font-family: sans-serif;
 }
 
@@ -50,6 +52,8 @@ body {
     padding: 10px;
     border-top: 1px solid grey;
     text-align: center;
+	height: 100px;
+	overflow: hidden;
 }
 
 
