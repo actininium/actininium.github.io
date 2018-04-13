@@ -1,11 +1,8 @@
-body {
-	text-align: center;
-}
-
 .header {
     font-family: sans-serif;
     padding: 20px;
     border-bottom: 1px solid grey;
+	text-align: center;
 }
 
 /* Header text appears black regardless of state */
@@ -32,5 +29,6 @@ body {
     font-family: sans-serif;
     padding: 20px;
     border-top: 1px solid grey;
+	text-align: center;
 }
 
