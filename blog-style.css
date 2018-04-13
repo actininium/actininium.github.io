@@ -1,5 +1,8 @@
+body {
+	font-family: sans-serif;
+}
+
 .header {
-    font-family: sans-serif;
     padding: 10px;
     border-bottom: 1px solid grey;
 	text-align: center;
@@ -20,19 +23,30 @@
 	color: black;
 }
 
+.content {	
+}
+
+.post-heading a:link {
+    text-decoration: none;
+}
+
+.post-heading a:hover {
+    text-decoration: underline;
+}
+
+.post-heading a:visited {
+	color: blue;
+}
+
 .footer {
     position: ablsolute;
     left: 0;
     right: 0;
     bottom: 0;
     color: grey;
-    font-family: sans-serif;
     padding: 10px;
     border-top: 1px solid grey;
     text-align: center;
 }
 
-.content {
-    font-family: sans-serif;	
-}
 
