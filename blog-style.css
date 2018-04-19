@@ -1,13 +1,16 @@
-/* Sticky footer uses code from https://css-tricks.com/couple-takes-sticky-footer/#article-header-id-3 */
+/* dominant color: rgb(255, 162, 54)
+	compliment color: rgb(54, 194, 255) 
+    Sticky footer uses code from https://css-tricks.com/couple-takes-sticky-footer/#article-header-id-3 
+*/
 
 html, body {
-    height: 100%;
+	height: 100%;
 }
 
 body {
-    font-family: sans-serif;
-    display: flex;
-    flex-direction: column;
+	font-family: sans-serif;
+	display: flex;
+	flex-direction: column;
 }
 
 .header {
@@ -17,22 +20,33 @@ body {
 
 /* Header text appears black regardless of state */
 .header a:link {
-    color: black;
     text-decoration: none;
+	color: rgb(255, 162, 54);
 }
 
 .header a:hover {
     text-decoration: underline;
-    color: black;
+	color: orange;
 }
 
-.header a:visited {
-    color: black;
+.header a:visited, a:active {
+	color: orange;
 }
 
 .content {
-    padding: 10px;
-    flex: 1 0 auto;
+	/* parent of preview */
+	display: flex;
+	flex-direction: column;
+	/* child of body */
+	flex: 1 0 auto;
+	/* aesthetics */
+	max-width: 40em;
+	margin: 0 auto;
+	padding: 10px;
+}
+
+.preview {
+	flex: 1 0 auto;
 }
 
 .post-heading a:link {
@@ -47,9 +61,21 @@ body {
     color: blue;
 }
 
+#all a:link {
+	text-decoration: none;
+}
+
+#all a:hover {
+	text-decoration: underline;
+}
+
+#all a:visited, a:active {
+	color: blue;
+}
+
 .footer {
-    flex-shrink: 0;
-    color: grey;
+	flex-shrink: 0;
+    color: black;
     border-top: 1px solid grey;
     text-align: center;
 }
