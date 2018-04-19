@@ -1,3 +1,5 @@
+/* Sticky footer uses code from https://css-tricks.com/couple-takes-sticky-footer/#article-header-id-3 */
+
 html, body {
 	height: 100%;
 }
