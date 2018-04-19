@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+<meta charset="utf-8">
+<title>Thoughts on Thoughts</title>
+<link rel="stylesheet" href="blog-style.css">
+</head>
+
+<body>
+	
+<div class="header">
+	<h1><a href="/index">Thoughts on Thoughts</a></h1>
+</div>
+
+<div class="content">
+	
+	<p id="all"><a href="/all">All Thoughts:</a></p>
+  
+  <ul>
+    <li></li>
+   </ul>
+   
+</div>
+
+	
+<div class="footer">
+	<p>2018 © Thoughts on Thoughts</p>
+</div>
+	
+</body>
+</html>
