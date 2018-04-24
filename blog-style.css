@@ -40,7 +40,7 @@ body {
 	/* child of body */
 	flex: 1 0 auto;
 	/* aesthetics */
-	max-width: 40em;
+	width: 40em;
 	margin: 0 auto;
 	padding: 10px;
 }
