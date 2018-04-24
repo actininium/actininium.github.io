@@ -8,29 +8,30 @@ html, body {
 }
 
 body {
+	margin: 0;
 	font-family: sans-serif;
 	display: flex;
 	flex-direction: column;
 }
 
 .header {
-    border-bottom: 1px solid grey;
-    text-align: center;
+    	text-align: center;
+	box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
 }
 
 /* Header text appears black regardless of state */
 .header a:link {
-    text-decoration: none;
+   	text-decoration: none;
 	color: rgb(255, 162, 54);
 }
 
 .header a:hover {
-    text-decoration: underline;
-	color: orange;
+   	text-decoration: underline;
+	color: rgb(255, 162, 54);
 }
 
 .header a:visited, a:active {
-	color: orange;
+	color: rgb(255, 162, 54);
 }
 
 .content {
@@ -50,19 +51,21 @@ body {
 }
 
 .post-heading a:link {
-    text-decoration: none;
+    	text-decoration: none;
+	color: rgb(54, 194, 255);
 }
 
 .post-heading a:hover {
-    text-decoration: underline;
+    	text-decoration: underline;
 }
 
 .post-heading a:visited {
-    color: blue;
+    	color: rgb(54, 194, 255);
 }
 
 #all a:link {
 	text-decoration: none;
+	color: rgb(54, 194, 255);
 }
 
 #all a:hover {
@@ -70,12 +73,12 @@ body {
 }
 
 #all a:visited, a:active {
-	color: blue;
+	color: rgb(54, 194, 255);
 }
 
 .footer {
 	flex-shrink: 0;
-    color: black;
-    border-top: 1px solid grey;
-    text-align: center;
+    	color: rgb(54, 194, 255);
+   	text-align: center;
+	background-color: rgba(54, 194, 255, 0.2);	
 }
