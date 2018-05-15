@@ -48,7 +48,7 @@ a:hover {
 	flex: 1 0 auto;
 }
 
-.footer {
+footer {
 	flex-shrink: 0;
     	color: #0cd123;
    	text-align: center;
