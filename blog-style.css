@@ -1,6 +1,5 @@
-/* dominant color: rgb(255, 162, 54)
-	compliment color: rgb(54, 194, 255) 
-    Sticky footer uses code from https://css-tricks.com/couple-takes-sticky-footer/#article-header-id-3 
+/* green #0cd123 or rgb(12, 209, 35)
+   Sticky footer from https://css-tricks.com/couple-takes-sticky-footer/#article-header-id-3 
 */
 
 html, body {
@@ -10,6 +9,7 @@ html, body {
 body {
 	margin: 0;
 	font-family: sans-serif;
+	/* for .header, .content, and footer */
 	display: flex;
 	flex-direction: column;
 }
@@ -19,19 +19,16 @@ body {
 	box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
 }
 
-/* Header text appears black regardless of state */
-.header a:link {
+a:link, a:hover, a:visited. a:active {
+   	color: #0cd123;
+}
+
+a:link {
    	text-decoration: none;
-	color: rgb(255, 162, 54);
 }
 
-.header a:hover {
-   	text-decoration: underline;
-	color: rgb(255, 162, 54);
-}
-
-.header a:visited, a:active {
-	color: rgb(255, 162, 54);
+a:hover {
+	text-decoration: underline;
 }
 
 .content {
@@ -44,41 +41,16 @@ body {
 	width: 40em;
 	margin: 0 auto;
 	padding: 10px;
+	font-size: 20px;
 }
 
 .preview {
 	flex: 1 0 auto;
 }
 
-.post-heading a:link {
-    	text-decoration: none;
-	color: rgb(54, 194, 255);
-}
-
-.post-heading a:hover {
-    	text-decoration: underline;
-}
-
-.post-heading a:visited {
-    	color: rgb(54, 194, 255);
-}
-
-#all a:link {
-	text-decoration: none;
-	color: rgb(54, 194, 255);
-}
-
-#all a:hover {
-	text-decoration: underline;
-}
-
-#all a:visited, a:active {
-	color: rgb(54, 194, 255);
-}
-
 .footer {
 	flex-shrink: 0;
-    	color: rgb(54, 194, 255);
+    	color: #0cd123;
    	text-align: center;
-	background-color: rgba(54, 194, 255, 0.2);	
+	background-color: rgb(245, 245, 245);	
 }
