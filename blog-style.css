@@ -39,6 +39,10 @@ a:hover {
 	color: #0cd123;
 }
 
+.header a:hover {
+	font-size: 100%;
+}
+
 #post-heading {
 	margin-bottom: 0px;	
 }
