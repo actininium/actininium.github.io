@@ -42,6 +42,8 @@ a:hover {
 small {
 	font-size: 15px;
 	color: rgb(200, 200, 200);
+	margin-top: 5px;
+	margin-bottom: 10px;
 }
 
 img {
