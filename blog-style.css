@@ -17,12 +17,7 @@ body {
 	flex-direction: column;
 }
 
-.header {
-    	text-align: center;
-	box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
-}
-
-a:link, a:hover, a:visited. a:active {
+a:link, a:hover, a:visited, a:active {
    	color: #0cd123;
 }
 
@@ -32,6 +27,12 @@ a:link {
 
 a:hover {
 	text-decoration: underline;
+}
+
+.header {
+    	text-align: center;
+	/* inspired by https://github.com/artemsheludko/adam-blog */
+	box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
 }
 
 .content {
