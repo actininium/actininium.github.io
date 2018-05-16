@@ -44,7 +44,11 @@ a:hover {
 }
 
 #post-heading {
-	margin-bottom: 0px;	
+	margin-bottom: 0px;
+}
+
+#post-heading a:hover {
+	font-size: 100%;
 }
 
 small {
