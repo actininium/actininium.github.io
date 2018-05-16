@@ -72,6 +72,18 @@ img {
 	font-size: 20px;
 }
 
+ul {
+	list-style-type: none;
+}
+
+ul a:link {
+	color: #0000EE;
+}
+
+ul a:visited {
+	color: #551A8B;
+}
+
 .preview {
 	flex: 1 0 auto;
 }
