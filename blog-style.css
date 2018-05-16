@@ -31,8 +31,12 @@ a:hover {
 
 .header {
     	text-align: center;
-	/* inspired by https://github.com/artemsheludko/adam-blog */
+	/* header bar inspired by https://github.com/artemsheludko/adam-blog */
 	box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.header a:link, a:visited, a:active, a:visited {
+	color: #0cd123;
 }
 
 .content {
@@ -50,6 +54,10 @@ a:hover {
 
 .preview {
 	flex: 1 0 auto;
+}
+
+#all a:link, a:visited, a:hover, a:active {
+	color: #0cd123;
 }
 
 footer {
