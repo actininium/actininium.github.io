@@ -39,6 +39,10 @@ a:hover {
 	color: #0cd123;
 }
 
+#post-heading {
+	margin-bottom: 0px;	
+}
+
 small {
 	font-size: 15px;
 	color: rgb(200, 200, 200);
