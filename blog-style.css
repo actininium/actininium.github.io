@@ -39,6 +39,20 @@ a:hover {
 	color: #0cd123;
 }
 
+small {
+	font-size: 15px;
+	color: rgb(200, 200, 200);
+}
+
+img {
+	width: 100%;
+	height: auto;
+}
+
+#caption {
+	color: rgb(200, 200, 200);
+}
+
 .content {
 	/* parent of preview */
 	display: flex;
@@ -58,6 +72,7 @@ a:hover {
 
 #all a:link, a:visited, a:hover, a:active {
 	color: #0cd123;
+	font-size: 20px;
 }
 
 footer {
