@@ -17,7 +17,7 @@ body {
 	flex-direction: column;
 }
 
-a:link, a:hover, a:visited, a:active {
+a {
    	color: #0cd123;
 }
 
@@ -105,5 +105,5 @@ footer {
 	flex-shrink: 0;
     	color: #0cd123;
    	text-align: center;
-	background-color: rgb(245, 245, 245);	
+	background-color: rgb(50, 50, 50);	
 }
