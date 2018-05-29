@@ -103,7 +103,7 @@ ul a:visited {
 
 footer {
 	flex-shrink: 0;
-    	color: #0cd123;
+    	color: rgb(100, 100, 100);
    	text-align: center;
-	background-color: rgb(50, 50, 50);	
+	background-color: rgb(230, 230, 230);	
 }
