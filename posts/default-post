@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+<meta charset="utf-8">
+<title>EDIT POST TITLE</title>
+<link rel="stylesheet" href="/blog-style.css">
+</head>
+
+<body>
+	
+<div class="header">
+	<h1><a href="/index">Alex Maplestone</a></h1>
+</div>
+	
+<div class="content">	
+	
+	<h2 id="post-heading">EDIT POST TITLE</h2>
+	<small>EDIT POST DATE (ISO)</small>
+	
+	<br>
+  
+	<img src="INSERT PHOTO URL" alt="INSERT PHOTO ALTERNATE DESCRIPTION">
+	<a href="INSERT LINK TO PHOTO SOURCE" id="caption">INSERT PHOTO ATTRIBUTION</a>
+	
+	<p>
+		INSERT TEXT
+	</p>
+	
+</div>
+
+<p id="all" align="center"><a href="/all">All Posts</a></p>
+	
+<footer>
+	<p>2018 © Alex Maplestone</p>
+	<p>Proudly hosted with GitHub</p>
+</footer>
+	
+</body>
+</html>
