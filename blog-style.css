@@ -1,0 +1,109 @@
+/* green #0cd123 or rgb(12, 209, 35)
+   Sticky footer from https://css-tricks.com/couple-takes-sticky-footer/#article-header-id-3 
+*/
+
+html, body {
+	height: 100%;
+	width: 100%;
+	margin: 0px;
+	padding: 0px;
+	overflow-x: hidden;
+}
+
+body {
+	font-family: sans-serif;
+	/* for .header, .content, and footer */
+	display: flex;
+	flex-direction: column;
+}
+
+a {
+   	color: #0cd123;
+}
+
+a:link {
+   	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+.header {
+    	text-align: center;
+	/* header bar inspired by https://github.com/artemsheludko/adam-blog */
+	box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.header a:link, a:visited, a:active, a:visited {
+	color: #0cd123;
+}
+
+.header a:hover {
+	font-size: 100%;
+}
+
+#post-heading {
+	margin-bottom: 0px;
+}
+
+#post-heading a:hover {
+	font-size: 100%;
+}
+
+small {
+	font-size: 15px;
+	color: rgb(200, 200, 200);
+	margin-top: 5px;
+	margin-bottom: 10px;
+}
+
+img {
+	width: 100%;
+	height: auto;
+}
+
+#caption {
+	color: rgb(200, 200, 200);
+}
+
+.content {
+	/* parent of preview */
+	display: flex;
+	flex-direction: column;
+	/* child of body */
+	flex: 1 0 auto;
+	/* aesthetics */
+	width: 40em;
+	margin: 0 auto;
+	padding: 10px;
+	font-size: 20px;
+}
+
+ul {
+	list-style-type: none;
+}
+
+ul a:link {
+	color: #0000EE;
+}
+
+ul a:visited {
+	color: #551A8B;
+}
+
+.preview {
+	flex: 1 0 auto;
+}
+
+#all a:link, a:visited, a:hover, a:active {
+	color: #0cd123;
+	font-size: 20px;
+}
+
+footer {
+	flex-shrink: 0;
+    	color: rgb(100, 100, 100);
+   	text-align: center;
+	background-color: rgb(230, 230, 230);	
+}
