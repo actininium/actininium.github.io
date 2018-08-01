@@ -82,6 +82,7 @@ img {
 
 ul {
 	list-style-type: none;
+	margin: 0px;
 }
 
 ul a:link {
@@ -90,6 +91,10 @@ ul a:link {
 
 ul a:visited {
 	color: #551A8B;
+}
+
+li {
+	padding: 5px 0px;
 }
 
 .preview {
