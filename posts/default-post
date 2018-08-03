@@ -25,6 +25,9 @@
 	<p>
 		INSERT TEXT
 	</p>
+		
+	<img src="INSERT PHOTO URL" alt="INSERT PHOTO ALTERNATE DESCRIPTION">
+	<a href="INSERT LINK TO PHOTO SOURCE" id="caption">INSERT PHOTO ATTRIBUTION</a>
 	
 </div>
 
