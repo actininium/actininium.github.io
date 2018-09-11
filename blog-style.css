@@ -106,6 +106,14 @@ li {
 	font-size: 20px;
 }
 
+#underline {
+	text-decoration: underline;
+}
+
+.signed {
+	font-family: 'Homemade Apple', cursive;
+}
+
 footer {
 	flex-shrink: 0;
     	color: rgb(100, 100, 100);
