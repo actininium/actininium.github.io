@@ -80,6 +80,10 @@ img {
 	font-size: 20px;
 }
 
+ol {
+	margin: 0px;
+}
+
 ul {
 	list-style-type: none;
 	margin: 0px;
@@ -108,6 +112,10 @@ li {
 
 .signed {
 	font-family: 'Homemade Apple', cursive;
+}
+
+#underline {
+	text-decoration: underline;
 }
 
 footer {
