@@ -116,6 +116,11 @@ p, img {
   font-size: 1.1em;
 }
 
+img {
+  max-width: 40em;
+  height: auto;
+}
+
 .all-container {
   padding-top: 1em;
 }
