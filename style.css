@@ -112,7 +112,7 @@ img {
   padding-top: 1em;
 }
 
-#all {
+.all {
   font-family: 'Questrial', sans-serif;
   background-color: #008000;
   color: white;
@@ -121,7 +121,7 @@ img {
   min-height: 30px;
 }
 
-#all:hover {
+.all:hover {
   text-decoration: none;
 }
 
