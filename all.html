@@ -1,40 +1,26 @@
-<!DOCTYPE html>
-<html lang="en-US">
-<head>
-<meta charset="utf-8">
-<title>All Posts | Alex Maplestone</title>
-<link rel="stylesheet" href="blog-style.css">
-</head>
-
 <!--page structure inspired by Derek Siver's blog: https://sivers.org/blog -->	
+<script src="https://www.w3schools.com/lib/w3.js"></script> 
+
+<div w3-include-html="header.html"></div>
 	
-<body>
-	
-<div class="header">
-	<h1><a href="/index">Alex Maplestone</a></h1>
-</div>
-	
-<div class="content">
-  
-<p id="all"><a href="/all">All Posts:</a></p>	
-	
- 	<ul>
- 		<li><a href="posts/read">Writers Read</a></li>
- 		<li><a href="posts/action-theory">The Theory of Doing</a></li>
- 		<li><a href="posts/why">Where's the Why?</a></li>
-		<li><a href="posts/pact">Artists' Pact</a></li>
-		<li><a href="posts/better">Better Than Who?</a></li>
-		<li><a href="posts/originality">For Sale: Originality</a></li>
-		<li><a href="posts/good-music">Genre Does Not Define Good Music</a></li>
-  	</ul>
-   
+<div class="all-content"> 
+  <h2>All Posts</h2>	
+  <ul>
+    <li><a href="posts/read">Writers Read</a></li>
+ 	 <li><a href="posts/action-theory">The Theory of Doing</a></li>
+ 	 <li><a href="posts/why">Where's the Why?</a></li>
+	 <li><a href="posts/pact">Artists' Pact</a></li>
+	 <li><a href="posts/better">Better Than Who?</a></li>
+	 <li><a href="posts/originality">For Sale: Originality</a></li>
+	 <li><a href="posts/good-music">Genre Does Not Define Good Music</a></li>
+  </ul>  
 </div>
 
+<div w3-include-html="footer.html"></div>
 	
-<footer>
-	<p>2018 © Alex Maplestone</p>
-	<p>Proudly hosted with GitHub</p>
-</footer>
+<script>
+w3.includeHTML();
+</script>	
 	
 </body>
 </html>

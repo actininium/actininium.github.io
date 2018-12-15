@@ -3,7 +3,7 @@ html, body {
   padding: 0;
 }
 
-#content {
+.content {
   max-width: 40em;
   margin: 0 auto;
 }
@@ -15,9 +15,7 @@ header {
   padding-top: 1em;
 }
 
-.material-icons {
-  color: white;
-}
+.material-icons {color: white;}
 
 /*dropdown menu code from https://www.w3schools.com/css/css_dropdowns.asp */
 
@@ -48,15 +46,12 @@ header {
 
 .dropdown-content a:hover {
   background-color: #f1f1f1;
+  text-decoration: none;
 }
 
-.dropdown:hover .dropdown-content {
-  display: block;
-}
+.dropdown:hover .dropdown-content {display: block;}
 
-.dropdown:hover .menu {
-  background-color: #3e8e41;
-}
+.dropdown:hover .menu {background-color: #3e8e41;}
 
 #search {
   float: right;
@@ -69,9 +64,7 @@ a {
   text-decoration: none;
 }
 
-a:hover {
-  text-decoration: underline;
-}
+a:hover {text-decoration: underline;}
 
 h1, h2, h3 {
   font-family: 'Questrial', sans-serif;
@@ -84,13 +77,9 @@ h1 {
   font-size: 2.7em;
 }
 
-h2, h3 {
-  color: #008000;
-}
+h2, h3 {color: #008000;}
 
-h2 {
-  font-size:2em;
-}
+h2 {font-size:2em;}
 
 h3 a {
   color: #008000;
@@ -104,12 +93,10 @@ section {
 
 article {
   padding-top: 1em;
-  padding-bottom: 1em;
+  padding-bottom: 3em;
 }
 
-hr {
-  color: #f9f9f9;
-}
+hr {color: #f9f9f9;}
 
 p, img {
   font-family: 'Crimson Text', serif;
@@ -144,12 +131,22 @@ footer {
   background-color: #008000;
   padding: 0.5em;
   text-align: center;
+  min-height: 3em;
 }
 
-footer p {
-  font-family: 'Questrial', sans-serif;
-}
+footer p {font-family: 'Questrial', sans-serif;}
 
-#git {
-  color: white;
+#git {color: white;}
+
+/* for all.html */
+ul {list-style-type: none;}
+
+li {padding-top: 1em;}
+
+.all-content {
+	max-width: 25em;
+	margin: 0 auto;
+	padding-left: 5em;
+	/*sticky footer*/
+	min-height: calc(100vh - 7em);
 }
