@@ -150,3 +150,14 @@ li {padding-top: 1em;}
 	/*sticky footer*/
 	min-height: calc(100vh - 7em);
 }
+
+/*for posts*/
+.post-image {
+  padding-top: 1em;
+  padding-bottom: 1em;
+}
+
+.post-caption {
+  padding-top: 1em;
+  color: #f9f9f9;
+}
