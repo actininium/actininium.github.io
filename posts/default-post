@@ -1,16 +1,6 @@
-<!DOCTYPE html>
-<html lang="en-CA">
-<head>
-<meta charset="utf-8">
-<title>EDIT POST TITLE | Alex Maplestone</title>
-<link rel="stylesheet" href="/blog-style.css">
-</head>
+<script src="https://www.w3schools.com/lib/w3.js"></script> 
 
-<body>
-	
-<div class="header">
-	<h1><a href="/index">Alex Maplestone</a></h1>
-</div>
+<div w3-include-html="/header.html"></div>
 	
 <div class="content">	
 	
