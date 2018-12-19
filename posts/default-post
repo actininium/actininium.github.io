@@ -3,30 +3,24 @@
 <div w3-include-html="/header.html"></div>
 	
 <div class="content">	
-	
-	<h2 id="post-heading">EDIT POST TITLE</h2>
-	<small>EDIT POST DATE (ISO)</small>
-	
-	<br>
-  
-	<img src="INSERT PHOTO URL" alt="INSERT PHOTO ALTERNATE DESCRIPTION">
-	<a href="INSERT LINK TO PHOTO SOURCE" id="caption">INSERT PHOTO ATTRIBUTION</a>
-	
-	<p>
-		INSERT TEXT
-	</p>
-		
-	<img src="INSERT PHOTO URL" alt="INSERT PHOTO ALTERNATE DESCRIPTION">
-	<a href="INSERT LINK TO PHOTO SOURCE" id="caption">INSERT PHOTO ATTRIBUTION</a>
-	
-</div>
+  <img src="" alt="" class="post-image"/>
+  <a href="" class="post-caption">CAPTION</a>
+  <h2>TITLE</h2>
 
-<p id="all" align="center"><a href="/all">All Posts</a></p>
+  <p>CONTENT</p>
+		
+  <img src="" alt="" class="post-image" />
+  <a href="" class="post-caption">CAPTION</a>
+  <small>DATE (ISO)</small>
+  
+  <div w3-include-html="/all-link.html"></div>
+</div>
 	
-<footer>
-	<p>2018 © Alex Maplestone</p>
-	<p>Proudly hosted with GitHub</p>
-</footer>
+<div w3-include-html="/footer.html"></div>
+	
+<script>
+w3.includeHTML();
+</script>	
 	
 </body>
 </html>

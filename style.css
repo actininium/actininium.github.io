@@ -160,4 +160,5 @@ li {padding-top: 1em;}
 .post-caption {
   padding-top: 1em;
   color: gray;
+  display: block;
 }
