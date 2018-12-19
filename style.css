@@ -4,7 +4,7 @@ html, body {
 }
 
 .content {
-  max-width: 40em;
+  max-width: 45em;
   margin: 0 auto;
 }
 
@@ -173,4 +173,8 @@ li {padding-top: 1em;}
 
 .book-title {
   margin: 1em 0 0 0;
+}
+
+.book-review {
+  margin: 1em 0 1em 0;
 }
