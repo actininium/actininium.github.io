@@ -177,6 +177,8 @@ li {padding-top: 1em;}
 
 .book-review {padding: 4em 0 2em 0;}
 
-.book-preview {padding: 1em 0 1em 0;}
+.book-preview {padding: 2em 0 1em 0;}
 
 .book-preview .book-review {padding: 0 0 0 0;}
+
+.book-preview .book-title {margin: 0 0 0 0;}
