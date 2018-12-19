@@ -172,10 +172,10 @@ li {padding-top: 1em;}
 }
 
 .book-title {
-  padding: 1em 0 0 0;
+  margin: 1em 0 0 0;
   float: right;
 }
 
 .book-stats {
-  padding: 0 0 2em 1em;
+  margin: 0 0 2em 1em;
 }
