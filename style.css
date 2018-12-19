@@ -171,14 +171,12 @@ li {padding-top: 1em;}
   margin: 0 2em 1em 0;
 }
 
-.book-title {
-  margin: 1em 0 0 0;
-}
+.book-title {margin: 1em 0 0 0;}
 
-.book-stats {
-  padding: 1em 0 0 0;
-}
+.book-stats {padding: 1em 0 0 0;}
 
-.book-review {
-  padding: 4em 0 2em 0;
-}
+.book-review {padding: 4em 0 2em 0;}
+
+.book-preview {padding: 1em 0 1em 0;}
+
+.book-preview .book-review {padding: 0 0 0 0;}
