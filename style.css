@@ -168,7 +168,7 @@ li {padding-top: 1em;}
   max-width: 10em;
   height: auto;
   float: left;
-  padding-top: 1em;
+  margin: 1em 1em 1em 0;
 }
 
 .book-title {
@@ -177,5 +177,5 @@ li {padding-top: 1em;}
 }
 
 .book-stats {
-  margin: 0 0 2em 1em;
+  margin: 0.5em 0 2em 0;
 }
