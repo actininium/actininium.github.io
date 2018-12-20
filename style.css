@@ -6,6 +6,7 @@ html, body {
 .content {
   max-width: 45em;
   margin: 0 auto;
+  padding: 1em;
 }
 
 header {
@@ -104,6 +105,7 @@ p, img {
 }
 
 img {
+  width: 100%;
   max-width: 40em;
   height: auto;
 }
