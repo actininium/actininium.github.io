@@ -111,7 +111,7 @@ img {
 }
 
 .all-container {
-  padding-top: 1em;
+  margin: 3em 0em 1em;
 }
 
 .all {
@@ -164,8 +164,11 @@ li {padding-top: 1em;}
   display: block;
 }
 
-p.footnote {
+.footnote ol{
   font-style: italic;
+  margin-left: -1.5em;
+  margin-bottom: 3em;
+  font-size: 0.9em;
 }
 
 /* for books */
