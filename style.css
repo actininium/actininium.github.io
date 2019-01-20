@@ -156,13 +156,16 @@ li {padding-top: 1em;}
 /*for posts*/
 .post-image {
   padding-top: 1em;
-  padding-bottom: 1em;
 }
 
 .post-caption {
   padding-top: 1em;
   color: gray;
   display: block;
+}
+
+.footnote {
+  font-style: italic;
 }
 
 /* for books */
