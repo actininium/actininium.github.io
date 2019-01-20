@@ -164,7 +164,7 @@ li {padding-top: 1em;}
   display: block;
 }
 
-.footnote {
+p.footnote {
   font-style: italic;
 }
 
