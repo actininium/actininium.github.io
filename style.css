@@ -16,7 +16,11 @@ header {
   padding-top: 1em;
 }
 
-.material-icons {color: white;}
+.material-icons {
+  color: white;
+  /* Wider width for better mouse-over */
+  width: 48px;
+}
 
 /*dropdown menu code from https://www.w3schools.com/css/css_dropdowns.asp */
 
@@ -101,7 +105,7 @@ hr {color: #f9f9f9;}
 
 p, img {
   font-family: 'Crimson Text', serif;
-  font-size: 1.1em;
+  font-size: 1.2em;
 }
 
 img {
@@ -173,7 +177,7 @@ li {padding-top: 1em;}
 
 /* for books */
 .book-image {
-  max-width: 10em;
+  max-width: 9em;
   height: auto;
   float: left;
   margin: 0 2em 1em 0;
