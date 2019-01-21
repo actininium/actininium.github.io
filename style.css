@@ -105,7 +105,11 @@ hr {color: #f9f9f9;}
 
 p, img {
   font-family: 'Crimson Text', serif;
-  font-size: 1.2em;
+  font-size: 1.3em;
+}
+
+ol, ul, li {
+  font-family: 'Crimson Text', serif;
 }
 
 img {
@@ -158,21 +162,19 @@ li {padding-top: 1em;}
 }
 
 /*for posts*/
-.post-image {
-  padding-top: 1em;
-}
+.post-image {margin-top: 2em;}
 
 .post-caption {
-  padding-top: 1em;
+  padding: 1em 0em;
   color: gray;
   display: block;
 }
 
-.foot-note ol{
+ol.foot-note {
   font-style: italic;
-  margin-left: -1.5em;
+  margin-left: -1.4em;
   margin-bottom: 3em;
-  font-size: 0.9em;
+  font-size: 1.1em;
 }
 
 /* for books */
