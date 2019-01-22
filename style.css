@@ -110,6 +110,7 @@ p, img {
 
 ol, ul, li {
   font-family: 'Crimson Text', serif;
+  font-size: 1.2em;
 }
 
 img {
@@ -171,10 +172,8 @@ li {padding-top: 1em;}
 }
 
 ol.foot-note {
-  font-style: italic;
   margin-left: -1.4em;
   margin-bottom: 3em;
-  font-size: 1.1em;
 }
 
 /* for books */
