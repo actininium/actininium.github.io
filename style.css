@@ -110,7 +110,6 @@ p, img {
 
 ol, ul, li {
   font-family: 'Crimson Text', serif;
-  font-size: 1.2em;
 }
 
 img {
@@ -162,6 +161,8 @@ li {padding-top: 1em;}
 	min-height: calc(100vh - 7em);
 }
 
+ul.all-content {font-size: 1.2em;}
+
 /*for posts*/
 .post-image {margin-top: 2em;}
 
@@ -174,6 +175,7 @@ li {padding-top: 1em;}
 ol.foot-note {
   margin-left: -1.4em;
   margin-bottom: 3em;
+  font-size: 1.1em;
 }
 
 /* for books */
