@@ -76,7 +76,7 @@ h1, h2, h3 {
   font-weight: normal;
 }
 
-h1 {
+h1 a {
   color: white;
   display: inline;
   font-size: 2.7em;
@@ -161,7 +161,7 @@ li {padding-top: 1em;}
 	min-height: calc(100vh - 7em);
 }
 
-ul.all-content {font-size: 1.2em;}
+.all-content li {font-size: 1.2em;} 
 
 /*for posts*/
 .post-image {margin-top: 2em;}
